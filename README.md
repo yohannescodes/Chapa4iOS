@@ -77,6 +77,7 @@ To verify payment, simply call the verify method from Chapa instance.
 
 
 ```swift
-chapa.verifyPayment(controller: self, txRef: transaction)
+chapa.verifyPayment(controller: self, txRef: transactionReference)
 ```
-
+### Remark
+Successfully presenting the checkout page doesn’t necessarily mean your customer has finalized their payment. You need to verify the transaction by providing the transaction reference you generated before initializing Customer object.

@@ -1,0 +1,3351 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Chapa4iOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Chapa4iOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Chapa4iOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Chapa4iOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Customer",
+        "printedName": "Customer",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "amount",
+            "printedName": "amount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Chapa4iOS8CustomerV6amountSSvp",
+            "mangledName": "$s9Chapa4iOS8CustomerV6amountSSvp",
+            "moduleName": "Chapa4iOS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS8CustomerV6amountSSvg",
+                "mangledName": "$s9Chapa4iOS8CustomerV6amountSSvg",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS8CustomerV6amountSSvs",
+                "mangledName": "$s9Chapa4iOS8CustomerV6amountSSvs",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS8CustomerV6amountSSvM",
+                "mangledName": "$s9Chapa4iOS8CustomerV6amountSSvM",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currency",
+            "printedName": "currency",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ChapaCurrency",
+                "printedName": "Chapa4iOS.ChapaCurrency",
+                "usr": "s:9Chapa4iOS13ChapaCurrencyO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Chapa4iOS8CustomerV8currencyAA13ChapaCurrencyOvp",
+            "mangledName": "$s9Chapa4iOS8CustomerV8currencyAA13ChapaCurrencyOvp",
+            "moduleName": "Chapa4iOS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChapaCurrency",
+                    "printedName": "Chapa4iOS.ChapaCurrency",
+                    "usr": "s:9Chapa4iOS13ChapaCurrencyO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS8CustomerV8currencyAA13ChapaCurrencyOvg",
+                "mangledName": "$s9Chapa4iOS8CustomerV8currencyAA13ChapaCurrencyOvg",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChapaCurrency",
+                    "printedName": "Chapa4iOS.ChapaCurrency",
+                    "usr": "s:9Chapa4iOS13ChapaCurrencyO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS8CustomerV8currencyAA13ChapaCurrencyOvs",
+                "mangledName": "$s9Chapa4iOS8CustomerV8currencyAA13ChapaCurrencyOvs",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS8CustomerV8currencyAA13ChapaCurrencyOvM",
+                "mangledName": "$s9Chapa4iOS8CustomerV8currencyAA13ChapaCurrencyOvM",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "email",
+            "printedName": "email",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Chapa4iOS8CustomerV5emailSSSgvp",
+            "mangledName": "$s9Chapa4iOS8CustomerV5emailSSSgvp",
+            "moduleName": "Chapa4iOS",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS8CustomerV5emailSSSgvg",
+                "mangledName": "$s9Chapa4iOS8CustomerV5emailSSSgvg",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS8CustomerV5emailSSSgvs",
+                "mangledName": "$s9Chapa4iOS8CustomerV5emailSSSgvs",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS8CustomerV5emailSSSgvM",
+                "mangledName": "$s9Chapa4iOS8CustomerV5emailSSSgvM",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "firstName",
+            "printedName": "firstName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Chapa4iOS8CustomerV9firstNameSSSgvp",
+            "mangledName": "$s9Chapa4iOS8CustomerV9firstNameSSSgvp",
+            "moduleName": "Chapa4iOS",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS8CustomerV9firstNameSSSgvg",
+                "mangledName": "$s9Chapa4iOS8CustomerV9firstNameSSSgvg",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS8CustomerV9firstNameSSSgvs",
+                "mangledName": "$s9Chapa4iOS8CustomerV9firstNameSSSgvs",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS8CustomerV9firstNameSSSgvM",
+                "mangledName": "$s9Chapa4iOS8CustomerV9firstNameSSSgvM",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastName",
+            "printedName": "lastName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Chapa4iOS8CustomerV8lastNameSSSgvp",
+            "mangledName": "$s9Chapa4iOS8CustomerV8lastNameSSSgvp",
+            "moduleName": "Chapa4iOS",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS8CustomerV8lastNameSSSgvg",
+                "mangledName": "$s9Chapa4iOS8CustomerV8lastNameSSSgvg",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS8CustomerV8lastNameSSSgvs",
+                "mangledName": "$s9Chapa4iOS8CustomerV8lastNameSSSgvs",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS8CustomerV8lastNameSSSgvM",
+                "mangledName": "$s9Chapa4iOS8CustomerV8lastNameSSSgvM",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "phoneNumber",
+            "printedName": "phoneNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Chapa4iOS8CustomerV11phoneNumberSSSgvp",
+            "mangledName": "$s9Chapa4iOS8CustomerV11phoneNumberSSSgvp",
+            "moduleName": "Chapa4iOS",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS8CustomerV11phoneNumberSSSgvg",
+                "mangledName": "$s9Chapa4iOS8CustomerV11phoneNumberSSSgvg",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS8CustomerV11phoneNumberSSSgvs",
+                "mangledName": "$s9Chapa4iOS8CustomerV11phoneNumberSSSgvs",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS8CustomerV11phoneNumberSSSgvM",
+                "mangledName": "$s9Chapa4iOS8CustomerV11phoneNumberSSSgvM",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "txRef",
+            "printedName": "txRef",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Chapa4iOS8CustomerV5txRefSSvp",
+            "mangledName": "$s9Chapa4iOS8CustomerV5txRefSSvp",
+            "moduleName": "Chapa4iOS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS8CustomerV5txRefSSvg",
+                "mangledName": "$s9Chapa4iOS8CustomerV5txRefSSvg",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS8CustomerV5txRefSSvs",
+                "mangledName": "$s9Chapa4iOS8CustomerV5txRefSSvs",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS8CustomerV5txRefSSvM",
+                "mangledName": "$s9Chapa4iOS8CustomerV5txRefSSvM",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "callbackURL",
+            "printedName": "callbackURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Chapa4iOS8CustomerV11callbackURLSSSgvp",
+            "mangledName": "$s9Chapa4iOS8CustomerV11callbackURLSSSgvp",
+            "moduleName": "Chapa4iOS",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS8CustomerV11callbackURLSSSgvg",
+                "mangledName": "$s9Chapa4iOS8CustomerV11callbackURLSSSgvg",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS8CustomerV11callbackURLSSSgvs",
+                "mangledName": "$s9Chapa4iOS8CustomerV11callbackURLSSSgvs",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS8CustomerV11callbackURLSSSgvM",
+                "mangledName": "$s9Chapa4iOS8CustomerV11callbackURLSSSgvM",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "returnURL",
+            "printedName": "returnURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Chapa4iOS8CustomerV9returnURLSSSgvp",
+            "mangledName": "$s9Chapa4iOS8CustomerV9returnURLSSSgvp",
+            "moduleName": "Chapa4iOS",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS8CustomerV9returnURLSSSgvg",
+                "mangledName": "$s9Chapa4iOS8CustomerV9returnURLSSSgvg",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS8CustomerV9returnURLSSSgvs",
+                "mangledName": "$s9Chapa4iOS8CustomerV9returnURLSSSgvs",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS8CustomerV9returnURLSSSgvM",
+                "mangledName": "$s9Chapa4iOS8CustomerV9returnURLSSSgvM",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customization",
+            "printedName": "customization",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Chapa4iOS.ChapaCustomization?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChapaCustomization",
+                    "printedName": "Chapa4iOS.ChapaCustomization",
+                    "usr": "s:9Chapa4iOS18ChapaCustomizationV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Chapa4iOS8CustomerV13customizationAA18ChapaCustomizationVSgvp",
+            "mangledName": "$s9Chapa4iOS8CustomerV13customizationAA18ChapaCustomizationVSgvp",
+            "moduleName": "Chapa4iOS",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Chapa4iOS.ChapaCustomization?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChapaCustomization",
+                        "printedName": "Chapa4iOS.ChapaCustomization",
+                        "usr": "s:9Chapa4iOS18ChapaCustomizationV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS8CustomerV13customizationAA18ChapaCustomizationVSgvg",
+                "mangledName": "$s9Chapa4iOS8CustomerV13customizationAA18ChapaCustomizationVSgvg",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Chapa4iOS.ChapaCustomization?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChapaCustomization",
+                        "printedName": "Chapa4iOS.ChapaCustomization",
+                        "usr": "s:9Chapa4iOS18ChapaCustomizationV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS8CustomerV13customizationAA18ChapaCustomizationVSgvs",
+                "mangledName": "$s9Chapa4iOS8CustomerV13customizationAA18ChapaCustomizationVSgvs",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS8CustomerV13customizationAA18ChapaCustomizationVSgvM",
+                "mangledName": "$s9Chapa4iOS8CustomerV13customizationAA18ChapaCustomizationVSgvM",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(amount:currency:email:firstName:lastName:phoneNumber:txRef:callbackURL:returnURL:customization:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Customer",
+                "printedName": "Chapa4iOS.Customer",
+                "usr": "s:9Chapa4iOS8CustomerV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ChapaCurrency",
+                "printedName": "Chapa4iOS.ChapaCurrency",
+                "usr": "s:9Chapa4iOS13ChapaCurrencyO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Chapa4iOS.ChapaCustomization?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChapaCustomization",
+                    "printedName": "Chapa4iOS.ChapaCustomization",
+                    "usr": "s:9Chapa4iOS18ChapaCustomizationV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9Chapa4iOS8CustomerV6amount8currency5email9firstName04lastH011phoneNumber5txRef11callbackURL06returnO013customizationACSS_AA13ChapaCurrencyOSSSgA3PSSA2pA0R13CustomizationVSgtcfc",
+            "mangledName": "$s9Chapa4iOS8CustomerV6amount8currency5email9firstName04lastH011phoneNumber5txRef11callbackURL06returnO013customizationACSS_AA13ChapaCurrencyOSSSgA3PSSA2pA0R13CustomizationVSgtcfc",
+            "moduleName": "Chapa4iOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Customer",
+                "printedName": "Chapa4iOS.Customer",
+                "usr": "s:9Chapa4iOS8CustomerV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9Chapa4iOS8CustomerV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s9Chapa4iOS8CustomerV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "Chapa4iOS",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Chapa4iOS8CustomerV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s9Chapa4iOS8CustomerV6encode2toys7Encoder_p_tKF",
+            "moduleName": "Chapa4iOS",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9Chapa4iOS8CustomerV",
+        "mangledName": "$s9Chapa4iOS8CustomerV",
+        "moduleName": "Chapa4iOS",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ChapaCustomization",
+        "printedName": "ChapaCustomization",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Chapa4iOS18ChapaCustomizationV5titleSSSgvp",
+            "mangledName": "$s9Chapa4iOS18ChapaCustomizationV5titleSSSgvp",
+            "moduleName": "Chapa4iOS",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS18ChapaCustomizationV5titleSSSgvg",
+                "mangledName": "$s9Chapa4iOS18ChapaCustomizationV5titleSSSgvg",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS18ChapaCustomizationV5titleSSSgvs",
+                "mangledName": "$s9Chapa4iOS18ChapaCustomizationV5titleSSSgvs",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS18ChapaCustomizationV5titleSSSgvM",
+                "mangledName": "$s9Chapa4iOS18ChapaCustomizationV5titleSSSgvM",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Chapa4iOS18ChapaCustomizationV11descriptionSSSgvp",
+            "mangledName": "$s9Chapa4iOS18ChapaCustomizationV11descriptionSSSgvp",
+            "moduleName": "Chapa4iOS",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS18ChapaCustomizationV11descriptionSSSgvg",
+                "mangledName": "$s9Chapa4iOS18ChapaCustomizationV11descriptionSSSgvg",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS18ChapaCustomizationV11descriptionSSSgvs",
+                "mangledName": "$s9Chapa4iOS18ChapaCustomizationV11descriptionSSSgvs",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS18ChapaCustomizationV11descriptionSSSgvM",
+                "mangledName": "$s9Chapa4iOS18ChapaCustomizationV11descriptionSSSgvM",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(title:description:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ChapaCustomization",
+                "printedName": "Chapa4iOS.ChapaCustomization",
+                "usr": "s:9Chapa4iOS18ChapaCustomizationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9Chapa4iOS18ChapaCustomizationV5title11descriptionACSSSg_AFtcfc",
+            "mangledName": "$s9Chapa4iOS18ChapaCustomizationV5title11descriptionACSSSg_AFtcfc",
+            "moduleName": "Chapa4iOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ChapaCustomization",
+                "printedName": "Chapa4iOS.ChapaCustomization",
+                "usr": "s:9Chapa4iOS18ChapaCustomizationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9Chapa4iOS18ChapaCustomizationV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s9Chapa4iOS18ChapaCustomizationV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "Chapa4iOS",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Chapa4iOS18ChapaCustomizationV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s9Chapa4iOS18ChapaCustomizationV6encode2toys7Encoder_p_tKF",
+            "moduleName": "Chapa4iOS",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9Chapa4iOS18ChapaCustomizationV",
+        "mangledName": "$s9Chapa4iOS18ChapaCustomizationV",
+        "moduleName": "Chapa4iOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ChapaCurrency",
+        "printedName": "ChapaCurrency",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "etb",
+            "printedName": "etb",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Chapa4iOS.ChapaCurrency.Type) -> Chapa4iOS.ChapaCurrency",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChapaCurrency",
+                    "printedName": "Chapa4iOS.ChapaCurrency",
+                    "usr": "s:9Chapa4iOS13ChapaCurrencyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Chapa4iOS.ChapaCurrency.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChapaCurrency",
+                        "printedName": "Chapa4iOS.ChapaCurrency",
+                        "usr": "s:9Chapa4iOS13ChapaCurrencyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Chapa4iOS13ChapaCurrencyO3etbyA2CmF",
+            "mangledName": "$s9Chapa4iOS13ChapaCurrencyO3etbyA2CmF",
+            "moduleName": "Chapa4iOS"
+          },
+          {
+            "kind": "Var",
+            "name": "usd",
+            "printedName": "usd",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Chapa4iOS.ChapaCurrency.Type) -> Chapa4iOS.ChapaCurrency",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChapaCurrency",
+                    "printedName": "Chapa4iOS.ChapaCurrency",
+                    "usr": "s:9Chapa4iOS13ChapaCurrencyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Chapa4iOS.ChapaCurrency.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChapaCurrency",
+                        "printedName": "Chapa4iOS.ChapaCurrency",
+                        "usr": "s:9Chapa4iOS13ChapaCurrencyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Chapa4iOS13ChapaCurrencyO3usdyA2CmF",
+            "mangledName": "$s9Chapa4iOS13ChapaCurrencyO3usdyA2CmF",
+            "moduleName": "Chapa4iOS"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Chapa4iOS.ChapaCurrency?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChapaCurrency",
+                    "printedName": "Chapa4iOS.ChapaCurrency",
+                    "usr": "s:9Chapa4iOS13ChapaCurrencyO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9Chapa4iOS13ChapaCurrencyO8rawValueACSgSS_tcfc",
+            "mangledName": "$s9Chapa4iOS13ChapaCurrencyO8rawValueACSgSS_tcfc",
+            "moduleName": "Chapa4iOS",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Chapa4iOS13ChapaCurrencyO8rawValueSSvp",
+            "mangledName": "$s9Chapa4iOS13ChapaCurrencyO8rawValueSSvp",
+            "moduleName": "Chapa4iOS",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS13ChapaCurrencyO8rawValueSSvg",
+                "mangledName": "$s9Chapa4iOS13ChapaCurrencyO8rawValueSSvg",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9Chapa4iOS13ChapaCurrencyO",
+        "mangledName": "$s9Chapa4iOS13ChapaCurrencyO",
+        "moduleName": "Chapa4iOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Chapa4iOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Chapa4iOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Chapa4iOS"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Chapa",
+        "printedName": "Chapa",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "secretKey",
+            "printedName": "secretKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Chapa4iOS5ChapaC9secretKeySSvp",
+            "mangledName": "$s9Chapa4iOS5ChapaC9secretKeySSvp",
+            "moduleName": "Chapa4iOS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS5ChapaC9secretKeySSvg",
+                "mangledName": "$s9Chapa4iOS5ChapaC9secretKeySSvg",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS5ChapaC9secretKeySSvs",
+                "mangledName": "$s9Chapa4iOS5ChapaC9secretKeySSvs",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS5ChapaC9secretKeySSvM",
+                "mangledName": "$s9Chapa4iOS5ChapaC9secretKeySSvM",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(secretKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Chapa",
+                "printedName": "Chapa4iOS.Chapa",
+                "usr": "s:9Chapa4iOS5ChapaC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9Chapa4iOS5ChapaC9secretKeyACSS_tcfc",
+            "mangledName": "$s9Chapa4iOS5ChapaC9secretKeyACSS_tcfc",
+            "moduleName": "Chapa4iOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "generateTransactionReference",
+            "printedName": "generateTransactionReference()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Chapa4iOS5ChapaC28generateTransactionReferenceSSyF",
+            "mangledName": "$s9Chapa4iOS5ChapaC28generateTransactionReferenceSSyF",
+            "moduleName": "Chapa4iOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "acceptPayment",
+            "printedName": "acceptPayment(controller:customer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Customer",
+                "printedName": "Chapa4iOS.Customer",
+                "usr": "s:9Chapa4iOS8CustomerV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Chapa4iOS5ChapaC13acceptPayment10controller8customerySo16UIViewControllerC_AA8CustomerVtF",
+            "mangledName": "$s9Chapa4iOS5ChapaC13acceptPayment10controller8customerySo16UIViewControllerC_AA8CustomerVtF",
+            "moduleName": "Chapa4iOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "verifyPayment",
+            "printedName": "verifyPayment(controller:txRef:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Chapa4iOS5ChapaC13verifyPayment10controller5txRefySo16UIViewControllerC_SStF",
+            "mangledName": "$s9Chapa4iOS5ChapaC13verifyPayment10controller5txRefySo16UIViewControllerC_SStF",
+            "moduleName": "Chapa4iOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9Chapa4iOS5ChapaC",
+        "mangledName": "$s9Chapa4iOS5ChapaC",
+        "moduleName": "Chapa4iOS",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Chapa4iOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ChapaNetworkManager",
+        "printedName": "ChapaNetworkManager",
+        "declKind": "Class",
+        "usr": "s:9Chapa4iOS19ChapaNetworkManagerC",
+        "mangledName": "$s9Chapa4iOS19ChapaNetworkManagerC",
+        "moduleName": "Chapa4iOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Chapa4iOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Chapa4iOS"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CheckoutViewController",
+        "printedName": "CheckoutViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Chapa4iOS22CheckoutViewControllerC3urlSSvp",
+            "mangledName": "$s9Chapa4iOS22CheckoutViewControllerC3urlSSvp",
+            "moduleName": "Chapa4iOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS22CheckoutViewControllerC3urlSSvg",
+                "mangledName": "$s9Chapa4iOS22CheckoutViewControllerC3urlSSvg",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS22CheckoutViewControllerC3urlSSvs",
+                "mangledName": "$s9Chapa4iOS22CheckoutViewControllerC3urlSSvs",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS22CheckoutViewControllerC3urlSSvM",
+                "mangledName": "$s9Chapa4iOS22CheckoutViewControllerC3urlSSvM",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "returnURL",
+            "printedName": "returnURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Chapa4iOS22CheckoutViewControllerC9returnURLSSSgvp",
+            "mangledName": "$s9Chapa4iOS22CheckoutViewControllerC9returnURLSSSgvp",
+            "moduleName": "Chapa4iOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS22CheckoutViewControllerC9returnURLSSSgvg",
+                "mangledName": "$s9Chapa4iOS22CheckoutViewControllerC9returnURLSSSgvg",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS22CheckoutViewControllerC9returnURLSSSgvs",
+                "mangledName": "$s9Chapa4iOS22CheckoutViewControllerC9returnURLSSSgvs",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS22CheckoutViewControllerC9returnURLSSSgvM",
+                "mangledName": "$s9Chapa4iOS22CheckoutViewControllerC9returnURLSSSgvM",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "transactionRefference",
+            "printedName": "transactionRefference",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Chapa4iOS22CheckoutViewControllerC21transactionRefferenceSSSgvp",
+            "mangledName": "$s9Chapa4iOS22CheckoutViewControllerC21transactionRefferenceSSSgvp",
+            "moduleName": "Chapa4iOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS22CheckoutViewControllerC21transactionRefferenceSSSgvg",
+                "mangledName": "$s9Chapa4iOS22CheckoutViewControllerC21transactionRefferenceSSSgvg",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS22CheckoutViewControllerC21transactionRefferenceSSSgvs",
+                "mangledName": "$s9Chapa4iOS22CheckoutViewControllerC21transactionRefferenceSSSgvs",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS22CheckoutViewControllerC21transactionRefferenceSSSgvM",
+                "mangledName": "$s9Chapa4iOS22CheckoutViewControllerC21transactionRefferenceSSSgvM",
+                "moduleName": "Chapa4iOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "loadView",
+            "printedName": "loadView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Chapa4iOS@objc(cs)CheckoutViewController(im)loadView",
+            "mangledName": "$s9Chapa4iOS22CheckoutViewControllerC04loadD0yyF",
+            "moduleName": "Chapa4iOS",
+            "overriding": true,
+            "objc_name": "loadView",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Chapa4iOS@objc(cs)CheckoutViewController(im)viewDidLoad",
+            "mangledName": "$s9Chapa4iOS22CheckoutViewControllerC11viewDidLoadyyF",
+            "moduleName": "Chapa4iOS",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CheckoutViewController",
+                "printedName": "Chapa4iOS.CheckoutViewController",
+                "usr": "c:@M@Chapa4iOS@objc(cs)CheckoutViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Chapa4iOS@objc(cs)CheckoutViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s9Chapa4iOS22CheckoutViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "Chapa4iOS",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Chapa4iOS.CheckoutViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckoutViewController",
+                    "printedName": "Chapa4iOS.CheckoutViewController",
+                    "usr": "c:@M@Chapa4iOS@objc(cs)CheckoutViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Chapa4iOS@objc(cs)CheckoutViewController(im)initWithCoder:",
+            "mangledName": "$s9Chapa4iOS22CheckoutViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "Chapa4iOS",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFinish:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@Chapa4iOS@objc(cs)CheckoutViewController(im)webView:didFinishNavigation:",
+            "mangledName": "$s9Chapa4iOS22CheckoutViewControllerC03webD0_9didFinishySo05WKWebD0C_So12WKNavigationCSgtF",
+            "moduleName": "Chapa4iOS",
+            "objc_name": "webView:didFinishNavigation:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Chapa4iOS@objc(cs)CheckoutViewController",
+        "mangledName": "$s9Chapa4iOS22CheckoutViewControllerC",
+        "moduleName": "Chapa4iOS",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Chapa4iOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CodableExplicitNull",
+        "printedName": "CodableExplicitNull",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "wrappedValue",
+            "printedName": "wrappedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Chapa4iOS19CodableExplicitNullV12wrappedValuexSgvp",
+            "mangledName": "$s9Chapa4iOS19CodableExplicitNullV12wrappedValuexSgvp",
+            "moduleName": "Chapa4iOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS19CodableExplicitNullV12wrappedValuexSgvg",
+                "mangledName": "$s9Chapa4iOS19CodableExplicitNullV12wrappedValuexSgvg",
+                "moduleName": "Chapa4iOS",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Wrapped>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS19CodableExplicitNullV12wrappedValuexSgvs",
+                "mangledName": "$s9Chapa4iOS19CodableExplicitNullV12wrappedValuexSgvs",
+                "moduleName": "Chapa4iOS",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Wrapped>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Chapa4iOS19CodableExplicitNullV12wrappedValuexSgvM",
+                "mangledName": "$s9Chapa4iOS19CodableExplicitNullV12wrappedValuexSgvM",
+                "moduleName": "Chapa4iOS",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Wrapped>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(wrappedValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CodableExplicitNull",
+                "printedName": "Chapa4iOS.CodableExplicitNull<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:9Chapa4iOS19CodableExplicitNullV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9Chapa4iOS19CodableExplicitNullV12wrappedValueACyxGxSg_tcfc",
+            "mangledName": "$s9Chapa4iOS19CodableExplicitNullV12wrappedValueACyxGxSg_tcfc",
+            "moduleName": "Chapa4iOS",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Wrapped>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Chapa4iOS19CodableExplicitNullVAASERzlE6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s9Chapa4iOS19CodableExplicitNullVAASERzlE6encode2toys7Encoder_p_tKF",
+            "moduleName": "Chapa4iOS",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<Wrapped where Wrapped : Swift.Encodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CodableExplicitNull",
+                "printedName": "Chapa4iOS.CodableExplicitNull<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:9Chapa4iOS19CodableExplicitNullV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9Chapa4iOS19CodableExplicitNullVAASeRzlE4fromACyxGs7Decoder_p_tKcfc",
+            "mangledName": "$s9Chapa4iOS19CodableExplicitNullVAASeRzlE4fromACyxGs7Decoder_p_tKcfc",
+            "moduleName": "Chapa4iOS",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<Wrapped where Wrapped : Swift.Decodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CodableExplicitNull",
+                "printedName": "Chapa4iOS.CodableExplicitNull<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:9Chapa4iOS19CodableExplicitNullV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CodableExplicitNull",
+                "printedName": "Chapa4iOS.CodableExplicitNull<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:9Chapa4iOS19CodableExplicitNullV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Chapa4iOS19CodableExplicitNullVAASQRzlE2eeoiySbACyxG_AEtFZ",
+            "mangledName": "$s9Chapa4iOS19CodableExplicitNullVAASQRzlE2eeoiySbACyxG_AEtFZ",
+            "moduleName": "Chapa4iOS",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<Wrapped where Wrapped : Swift.Equatable>",
+            "static": true,
+            "implicit": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9Chapa4iOS19CodableExplicitNullV",
+        "mangledName": "$s9Chapa4iOS19CodableExplicitNullV",
+        "moduleName": "Chapa4iOS",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<Wrapped>",
+        "declAttributes": [
+          "AccessControl",
+          "PropertyWrapper"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KeyedDecodingContainer",
+        "printedName": "KeyedDecodingContainer",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "decode",
+            "printedName": "decode(_:forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CodableExplicitNull",
+                "printedName": "Chapa4iOS.CodableExplicitNull<τ_1_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "usr": "s:9Chapa4iOS19CodableExplicitNullV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "Chapa4iOS.CodableExplicitNull<τ_1_0>.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CodableExplicitNull",
+                    "printedName": "Chapa4iOS.CodableExplicitNull<τ_1_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_1_0"
+                      }
+                    ],
+                    "usr": "s:9Chapa4iOS19CodableExplicitNullV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:s22KeyedDecodingContainerV9Chapa4iOSE6decode_6forKeyAC19CodableExplicitNullVyqd__GAHm_xtKSeRd__lF",
+            "mangledName": "$ss22KeyedDecodingContainerV9Chapa4iOSE6decode_6forKeyAC19CodableExplicitNullVyqd__GAHm_xtKSeRd__lF",
+            "moduleName": "Chapa4iOS",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : Swift.CodingKey, τ_1_0 : Swift.Decodable>",
+            "sugared_genericSig": "<K, Wrapped where K : Swift.CodingKey, Wrapped : Swift.Decodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:s22KeyedDecodingContainerV",
+        "mangledName": "$ss22KeyedDecodingContainerV",
+        "moduleName": "Swift",
+        "genericSig": "<τ_0_0 where τ_0_0 : Swift.CodingKey>",
+        "sugared_genericSig": "<K where K : Swift.CodingKey>",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "KeyedDecodingContainerProtocol",
+            "printedName": "KeyedDecodingContainerProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Key",
+                "printedName": "Key",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s30KeyedDecodingContainerProtocolP",
+            "mangledName": "$ss30KeyedDecodingContainerProtocolP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/SuccessfulCheckout.swift",
+      "kind": "StringLiteral",
+      "offset": 400,
+      "length": 14,
+      "value": "\"checkout_url\""
+    },
+    {
+      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/SuccessfulCheckout.swift",
+      "kind": "StringLiteral",
+      "offset": 400,
+      "length": 14,
+      "value": "\"checkout_url\""
+    },
+    {
+      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/VerifiedTransaction.swift",
+      "kind": "StringLiteral",
+      "offset": 645,
+      "length": 12,
+      "value": "\"first_name\""
+    },
+    {
+      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/VerifiedTransaction.swift",
+      "kind": "StringLiteral",
+      "offset": 682,
+      "length": 11,
+      "value": "\"last_name\""
+    },
+    {
+      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/VerifiedTransaction.swift",
+      "kind": "StringLiteral",
+      "offset": 799,
+      "length": 8,
+      "value": "\"tx_ref\""
+    },
+    {
+      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/VerifiedTransaction.swift",
+      "kind": "StringLiteral",
+      "offset": 860,
+      "length": 12,
+      "value": "\"created_at\""
+    },
+    {
+      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/VerifiedTransaction.swift",
+      "kind": "StringLiteral",
+      "offset": 898,
+      "length": 12,
+      "value": "\"updated_at\""
+    },
+    {
+      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/VerifiedTransaction.swift",
+      "kind": "StringLiteral",
+      "offset": 645,
+      "length": 12,
+      "value": "\"first_name\""
+    },
+    {
+      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/VerifiedTransaction.swift",
+      "kind": "StringLiteral",
+      "offset": 682,
+      "length": 11,
+      "value": "\"last_name\""
+    },
+    {
+      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/VerifiedTransaction.swift",
+      "kind": "StringLiteral",
+      "offset": 799,
+      "length": 8,
+      "value": "\"tx_ref\""
+    },
+    {
+      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/VerifiedTransaction.swift",
+      "kind": "StringLiteral",
+      "offset": 860,
+      "length": 12,
+      "value": "\"created_at\""
+    },
+    {
+      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/VerifiedTransaction.swift",
+      "kind": "StringLiteral",
+      "offset": 898,
+      "length": 12,
+      "value": "\"updated_at\""
+    },
+    {
+      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/Customer.swift",
+      "kind": "StringLiteral",
+      "offset": 805,
+      "length": 12,
+      "value": "\"first_name\""
+    },
+    {
+      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/Customer.swift",
+      "kind": "StringLiteral",
+      "offset": 842,
+      "length": 11,
+      "value": "\"last_name\""
+    },
+    {
+      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/Customer.swift",
+      "kind": "StringLiteral",
+      "offset": 881,
+      "length": 14,
+      "value": "\"phone_number\""
+    },
+    {
+      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/Customer.swift",
+      "kind": "StringLiteral",
+      "offset": 917,
+      "length": 8,
+      "value": "\"tx_ref\""
+    },
+    {
+      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/Customer.swift",
+      "kind": "StringLiteral",
+      "offset": 953,
+      "length": 14,
+      "value": "\"callback_url\""
+    },
+    {
+      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/Customer.swift",
+      "kind": "StringLiteral",
+      "offset": 993,
+      "length": 12,
+      "value": "\"return_url\""
+    },
+    {
+      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/Customer.swift",
+      "kind": "StringLiteral",
+      "offset": 805,
+      "length": 12,
+      "value": "\"first_name\""
+    },
+    {
+      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/Customer.swift",
+      "kind": "StringLiteral",
+      "offset": 842,
+      "length": 11,
+      "value": "\"last_name\""
+    },
+    {
+      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/Customer.swift",
+      "kind": "StringLiteral",
+      "offset": 881,
+      "length": 14,
+      "value": "\"phone_number\""
+    },
+    {
+      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/Customer.swift",
+      "kind": "StringLiteral",
+      "offset": 917,
+      "length": 8,
+      "value": "\"tx_ref\""
+    },
+    {
+      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/Customer.swift",
+      "kind": "StringLiteral",
+      "offset": 953,
+      "length": 14,
+      "value": "\"callback_url\""
+    },
+    {
+      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/Customer.swift",
+      "kind": "StringLiteral",
+      "offset": 993,
+      "length": 12,
+      "value": "\"return_url\""
+    },
+    {
+      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/Customer.swift",
+      "kind": "StringLiteral",
+      "offset": 2072,
+      "length": 5,
+      "value": "\"ETB\""
+    },
+    {
+      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/Customer.swift",
+      "kind": "StringLiteral",
+      "offset": 2093,
+      "length": 5,
+      "value": "\"USD\""
+    },
+    {
+      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/Customer.swift",
+      "kind": "StringLiteral",
+      "offset": 2072,
+      "length": 5,
+      "value": "\"ETB\""
+    },
+    {
+      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/Customer.swift",
+      "kind": "StringLiteral",
+      "offset": 2093,
+      "length": 5,
+      "value": "\"USD\""
+    },
+    {
+      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Extra\/ChapaConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 167,
+      "length": 43,
+      "value": "\"https:\/\/yohanneshaile.netlify.app\/aboutme\""
+    },
+    {
+      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Extra\/ChapaConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 242,
+      "length": 48,
+      "value": "\"https:\/\/api.chapa.co\/v1\/transaction\/initialize\""
+    },
+    {
+      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Extra\/ChapaConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 322,
+      "length": 45,
+      "value": "\"https:\/\/api.chapa.co\/v1\/transaction\/verify\/\""
+    },
+    {
+      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/View\/CheckoutViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 232,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Util\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 160,
+      "length": 2,
+      "value": "15"
+    }
+  ]
+}

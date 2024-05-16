@@ -1,0 +1,121 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios14.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Chapa4iOS
+@_exported import Chapa4iOS
+import Foundation
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct Customer : Swift.Codable {
+  public var amount: Swift.String
+  public var currency: Chapa4iOS.ChapaCurrency
+  @Chapa4iOS.CodableExplicitNull public var email: Swift.String? {
+    get
+    set
+    _modify
+  }
+  @Chapa4iOS.CodableExplicitNull public var firstName: Swift.String? {
+    get
+    set
+    _modify
+  }
+  @Chapa4iOS.CodableExplicitNull public var lastName: Swift.String? {
+    get
+    set
+    _modify
+  }
+  @Chapa4iOS.CodableExplicitNull public var phoneNumber: Swift.String? {
+    get
+    set
+    _modify
+  }
+  public var txRef: Swift.String
+  @Chapa4iOS.CodableExplicitNull public var callbackURL: Swift.String? {
+    get
+    set
+    _modify
+  }
+  @Chapa4iOS.CodableExplicitNull public var returnURL: Swift.String? {
+    get
+    set
+    _modify
+  }
+  @Chapa4iOS.CodableExplicitNull public var customization: Chapa4iOS.ChapaCustomization? {
+    get
+    set
+    _modify
+  }
+  public init(amount: Swift.String, currency: Chapa4iOS.ChapaCurrency, email: Swift.String?, firstName: Swift.String?, lastName: Swift.String?, phoneNumber: Swift.String?, txRef: Swift.String, callbackURL: Swift.String?, returnURL: Swift.String? = nil, customization: Chapa4iOS.ChapaCustomization?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ChapaCustomization : Swift.Codable {
+  @Chapa4iOS.CodableExplicitNull public var title: Swift.String? {
+    get
+    set
+    _modify
+  }
+  @Chapa4iOS.CodableExplicitNull public var description: Swift.String? {
+    get
+    set
+    _modify
+  }
+  public init(title: Swift.String?, description: Swift.String?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum ChapaCurrency : Swift.String, Swift.Codable {
+  case etb
+  case usd
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public class Chapa {
+  public var secretKey: Swift.String
+  public init(secretKey: Swift.String)
+  public func generateTransactionReference() -> Swift.String
+  public func acceptPayment(controller: UIKit.UIViewController, customer: Chapa4iOS.Customer)
+  public func verifyPayment(controller: UIKit.UIViewController, txRef: Swift.String)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class ChapaNetworkManager {
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class CheckoutViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public var url: Swift.String
+  @_Concurrency.MainActor(unsafe) public var returnURL: Swift.String?
+  @_Concurrency.MainActor(unsafe) public var transactionRefference: Swift.String?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func loadView()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension Chapa4iOS.CheckoutViewController : WebKit.WKNavigationDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+}
+@propertyWrapper public struct CodableExplicitNull<Wrapped> {
+  public var wrappedValue: Wrapped?
+  public init(wrappedValue: Wrapped?)
+}
+extension Chapa4iOS.CodableExplicitNull : Swift.Encodable where Wrapped : Swift.Encodable {
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+extension Chapa4iOS.CodableExplicitNull : Swift.Decodable where Wrapped : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Chapa4iOS.CodableExplicitNull : Swift.Equatable where Wrapped : Swift.Equatable {
+  public static func == (a: Chapa4iOS.CodableExplicitNull<Wrapped>, b: Chapa4iOS.CodableExplicitNull<Wrapped>) -> Swift.Bool
+}
+extension Swift.KeyedDecodingContainer {
+  public func decode<Wrapped>(_ type: Chapa4iOS.CodableExplicitNull<Wrapped>.Type, forKey key: Swift.KeyedDecodingContainer<K>.Key) throws -> Chapa4iOS.CodableExplicitNull<Wrapped> where Wrapped : Swift.Decodable
+}
+extension Chapa4iOS.ChapaCurrency : Swift.Equatable {}
+extension Chapa4iOS.ChapaCurrency : Swift.Hashable {}
+extension Chapa4iOS.ChapaCurrency : Swift.RawRepresentable {}

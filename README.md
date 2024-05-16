@@ -58,13 +58,13 @@ chapa.acceptPayment(controller: self, customer: customer)
 
 ### Data Types of Optional Properties:
 
-email: String?
-firstName: String?
-lastName: String?
-phoneNumber: String?
-callbackURL: String?
-returnURL: String? (HIGHLY RECOMMENDED TO PROVIDE THIS FIELD)
-customization: ChapaCustomization?
+- email: String?
+- firstName: String?
+- lastName: String?
+- phoneNumber: String?
+- callbackURL: String?
+- returnURL: String? (HIGHLY RECOMMENDED TO PROVIDE THIS FIELD)
+- customization: ChapaCustomization?
 
 ### What can you customize?
 

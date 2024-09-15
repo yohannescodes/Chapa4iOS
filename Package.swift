@@ -5,6 +5,8 @@ import PackageDescription
 
 let package = Package(
     name: "Chapa4iOS",
+    
+    platforms: [.iOS(.v13)],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
@@ -15,6 +17,6 @@ let package = Package(
     
     targets: [
         
-        .binaryTarget(name: "Chapa4iOS", url: "https://chapa-ios-sdk-i8hv.vercel.app/Chapa4iOS.xcframework.zip", checksum: "b36acea7e531793adaa1f094b33c76317ab7d1ebbde5d404bd5ff7a8b55d79e4")
+        .binaryTarget(name: "Chapa4iOS", url: "https://chapa-ios-sdk-i8hv.vercel.app/Chapa4iOS.xcframework.zip", checksum: "36ea436d17724c604f5596176a52b77705fa72a1d0aca631e4e79fbb03ebc1b7")
     ]
 )

@@ -81,7 +81,7 @@ public class Chapa {
   public init(secretKey: Swift.String)
   public func generateTransactionReference() -> Swift.String
   public func acceptPayment(controller: UIKit.UIViewController, customer: Chapa4iOS.Customer)
-  public func verifyPayment(controller: UIKit.UIViewController, txRef: Swift.String)
+  public func verifyPayment(txRef: Swift.String)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class ChapaNetworkManager {
@@ -99,6 +99,7 @@ public class Chapa {
 }
 extension Chapa4iOS.CheckoutViewController : WebKit.WKNavigationDelegate {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
 }
 @propertyWrapper public struct CodableExplicitNull<Wrapped> {
   public var wrappedValue: Wrapped?

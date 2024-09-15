@@ -2034,18 +2034,12 @@
           {
             "kind": "Function",
             "name": "verifyPayment",
-            "printedName": "verifyPayment(controller:txRef:)",
+            "printedName": "verifyPayment(txRef:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
               },
               {
                 "kind": "TypeNominal",
@@ -2055,8 +2049,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9Chapa4iOS5ChapaC13verifyPayment10controller5txRefySo16UIViewControllerC_SStF",
-            "mangledName": "$s9Chapa4iOS5ChapaC13verifyPayment10controller5txRefySo16UIViewControllerC_SStF",
+            "usr": "s:9Chapa4iOS5ChapaC13verifyPayment5txRefySS_tF",
+            "mangledName": "$s9Chapa4iOS5ChapaC13verifyPayment5txRefySS_tF",
             "moduleName": "Chapa4iOS",
             "declAttributes": [
               "AccessControl"
@@ -2618,6 +2612,62 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:decidePolicyFor:decisionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationAction",
+                "printedName": "WebKit.WKNavigationAction",
+                "usr": "c:objc(cs)WKNavigationAction"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebKit.WKNavigationActionPolicy) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigationActionPolicy",
+                    "printedName": "WebKit.WKNavigationActionPolicy",
+                    "usr": "c:@E@WKNavigationActionPolicy"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@Chapa4iOS@objc(cs)CheckoutViewController(im)webView:decidePolicyForNavigationAction:decisionHandler:",
+            "mangledName": "$s9Chapa4iOS22CheckoutViewControllerC03webD0_15decidePolicyFor15decisionHandlerySo05WKWebD0C_So18WKNavigationActionCySo0mnH0VctF",
+            "moduleName": "Chapa4iOS",
+            "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -3117,231 +3167,231 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/SuccessfulCheckout.swift",
+      "filePath": "\/Users\/yohaneshaile\/Documents\/Personal Projects\/Chapa Working\/Chapa4iOSFramework\/Chapa4iOS\/Model\/SuccessfulCheckout.swift",
       "kind": "StringLiteral",
       "offset": 400,
       "length": 14,
       "value": "\"checkout_url\""
     },
     {
-      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/SuccessfulCheckout.swift",
+      "filePath": "\/Users\/yohaneshaile\/Documents\/Personal Projects\/Chapa Working\/Chapa4iOSFramework\/Chapa4iOS\/Model\/SuccessfulCheckout.swift",
       "kind": "StringLiteral",
       "offset": 400,
       "length": 14,
       "value": "\"checkout_url\""
     },
     {
-      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/VerifiedTransaction.swift",
+      "filePath": "\/Users\/yohaneshaile\/Documents\/Personal Projects\/Chapa Working\/Chapa4iOSFramework\/Chapa4iOS\/Model\/VerifiedTransaction.swift",
       "kind": "StringLiteral",
       "offset": 645,
       "length": 12,
       "value": "\"first_name\""
     },
     {
-      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/VerifiedTransaction.swift",
+      "filePath": "\/Users\/yohaneshaile\/Documents\/Personal Projects\/Chapa Working\/Chapa4iOSFramework\/Chapa4iOS\/Model\/VerifiedTransaction.swift",
       "kind": "StringLiteral",
       "offset": 682,
       "length": 11,
       "value": "\"last_name\""
     },
     {
-      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/VerifiedTransaction.swift",
+      "filePath": "\/Users\/yohaneshaile\/Documents\/Personal Projects\/Chapa Working\/Chapa4iOSFramework\/Chapa4iOS\/Model\/VerifiedTransaction.swift",
       "kind": "StringLiteral",
       "offset": 799,
       "length": 8,
       "value": "\"tx_ref\""
     },
     {
-      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/VerifiedTransaction.swift",
+      "filePath": "\/Users\/yohaneshaile\/Documents\/Personal Projects\/Chapa Working\/Chapa4iOSFramework\/Chapa4iOS\/Model\/VerifiedTransaction.swift",
       "kind": "StringLiteral",
       "offset": 860,
       "length": 12,
       "value": "\"created_at\""
     },
     {
-      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/VerifiedTransaction.swift",
+      "filePath": "\/Users\/yohaneshaile\/Documents\/Personal Projects\/Chapa Working\/Chapa4iOSFramework\/Chapa4iOS\/Model\/VerifiedTransaction.swift",
       "kind": "StringLiteral",
       "offset": 898,
       "length": 12,
       "value": "\"updated_at\""
     },
     {
-      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/VerifiedTransaction.swift",
+      "filePath": "\/Users\/yohaneshaile\/Documents\/Personal Projects\/Chapa Working\/Chapa4iOSFramework\/Chapa4iOS\/Model\/VerifiedTransaction.swift",
       "kind": "StringLiteral",
       "offset": 645,
       "length": 12,
       "value": "\"first_name\""
     },
     {
-      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/VerifiedTransaction.swift",
+      "filePath": "\/Users\/yohaneshaile\/Documents\/Personal Projects\/Chapa Working\/Chapa4iOSFramework\/Chapa4iOS\/Model\/VerifiedTransaction.swift",
       "kind": "StringLiteral",
       "offset": 682,
       "length": 11,
       "value": "\"last_name\""
     },
     {
-      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/VerifiedTransaction.swift",
+      "filePath": "\/Users\/yohaneshaile\/Documents\/Personal Projects\/Chapa Working\/Chapa4iOSFramework\/Chapa4iOS\/Model\/VerifiedTransaction.swift",
       "kind": "StringLiteral",
       "offset": 799,
       "length": 8,
       "value": "\"tx_ref\""
     },
     {
-      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/VerifiedTransaction.swift",
+      "filePath": "\/Users\/yohaneshaile\/Documents\/Personal Projects\/Chapa Working\/Chapa4iOSFramework\/Chapa4iOS\/Model\/VerifiedTransaction.swift",
       "kind": "StringLiteral",
       "offset": 860,
       "length": 12,
       "value": "\"created_at\""
     },
     {
-      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/VerifiedTransaction.swift",
+      "filePath": "\/Users\/yohaneshaile\/Documents\/Personal Projects\/Chapa Working\/Chapa4iOSFramework\/Chapa4iOS\/Model\/VerifiedTransaction.swift",
       "kind": "StringLiteral",
       "offset": 898,
       "length": 12,
       "value": "\"updated_at\""
     },
     {
-      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/Customer.swift",
+      "filePath": "\/Users\/yohaneshaile\/Documents\/Personal Projects\/Chapa Working\/Chapa4iOSFramework\/Chapa4iOS\/Model\/Customer.swift",
       "kind": "StringLiteral",
       "offset": 805,
       "length": 12,
       "value": "\"first_name\""
     },
     {
-      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/Customer.swift",
+      "filePath": "\/Users\/yohaneshaile\/Documents\/Personal Projects\/Chapa Working\/Chapa4iOSFramework\/Chapa4iOS\/Model\/Customer.swift",
       "kind": "StringLiteral",
       "offset": 842,
       "length": 11,
       "value": "\"last_name\""
     },
     {
-      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/Customer.swift",
+      "filePath": "\/Users\/yohaneshaile\/Documents\/Personal Projects\/Chapa Working\/Chapa4iOSFramework\/Chapa4iOS\/Model\/Customer.swift",
       "kind": "StringLiteral",
       "offset": 881,
       "length": 14,
       "value": "\"phone_number\""
     },
     {
-      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/Customer.swift",
+      "filePath": "\/Users\/yohaneshaile\/Documents\/Personal Projects\/Chapa Working\/Chapa4iOSFramework\/Chapa4iOS\/Model\/Customer.swift",
       "kind": "StringLiteral",
       "offset": 917,
       "length": 8,
       "value": "\"tx_ref\""
     },
     {
-      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/Customer.swift",
+      "filePath": "\/Users\/yohaneshaile\/Documents\/Personal Projects\/Chapa Working\/Chapa4iOSFramework\/Chapa4iOS\/Model\/Customer.swift",
       "kind": "StringLiteral",
       "offset": 953,
       "length": 14,
       "value": "\"callback_url\""
     },
     {
-      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/Customer.swift",
+      "filePath": "\/Users\/yohaneshaile\/Documents\/Personal Projects\/Chapa Working\/Chapa4iOSFramework\/Chapa4iOS\/Model\/Customer.swift",
       "kind": "StringLiteral",
       "offset": 993,
       "length": 12,
       "value": "\"return_url\""
     },
     {
-      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/Customer.swift",
+      "filePath": "\/Users\/yohaneshaile\/Documents\/Personal Projects\/Chapa Working\/Chapa4iOSFramework\/Chapa4iOS\/Model\/Customer.swift",
       "kind": "StringLiteral",
       "offset": 805,
       "length": 12,
       "value": "\"first_name\""
     },
     {
-      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/Customer.swift",
+      "filePath": "\/Users\/yohaneshaile\/Documents\/Personal Projects\/Chapa Working\/Chapa4iOSFramework\/Chapa4iOS\/Model\/Customer.swift",
       "kind": "StringLiteral",
       "offset": 842,
       "length": 11,
       "value": "\"last_name\""
     },
     {
-      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/Customer.swift",
+      "filePath": "\/Users\/yohaneshaile\/Documents\/Personal Projects\/Chapa Working\/Chapa4iOSFramework\/Chapa4iOS\/Model\/Customer.swift",
       "kind": "StringLiteral",
       "offset": 881,
       "length": 14,
       "value": "\"phone_number\""
     },
     {
-      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/Customer.swift",
+      "filePath": "\/Users\/yohaneshaile\/Documents\/Personal Projects\/Chapa Working\/Chapa4iOSFramework\/Chapa4iOS\/Model\/Customer.swift",
       "kind": "StringLiteral",
       "offset": 917,
       "length": 8,
       "value": "\"tx_ref\""
     },
     {
-      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/Customer.swift",
+      "filePath": "\/Users\/yohaneshaile\/Documents\/Personal Projects\/Chapa Working\/Chapa4iOSFramework\/Chapa4iOS\/Model\/Customer.swift",
       "kind": "StringLiteral",
       "offset": 953,
       "length": 14,
       "value": "\"callback_url\""
     },
     {
-      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/Customer.swift",
+      "filePath": "\/Users\/yohaneshaile\/Documents\/Personal Projects\/Chapa Working\/Chapa4iOSFramework\/Chapa4iOS\/Model\/Customer.swift",
       "kind": "StringLiteral",
       "offset": 993,
       "length": 12,
       "value": "\"return_url\""
     },
     {
-      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/Customer.swift",
+      "filePath": "\/Users\/yohaneshaile\/Documents\/Personal Projects\/Chapa Working\/Chapa4iOSFramework\/Chapa4iOS\/Model\/Customer.swift",
       "kind": "StringLiteral",
       "offset": 2072,
       "length": 5,
       "value": "\"ETB\""
     },
     {
-      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/Customer.swift",
+      "filePath": "\/Users\/yohaneshaile\/Documents\/Personal Projects\/Chapa Working\/Chapa4iOSFramework\/Chapa4iOS\/Model\/Customer.swift",
       "kind": "StringLiteral",
       "offset": 2093,
       "length": 5,
       "value": "\"USD\""
     },
     {
-      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/Customer.swift",
+      "filePath": "\/Users\/yohaneshaile\/Documents\/Personal Projects\/Chapa Working\/Chapa4iOSFramework\/Chapa4iOS\/Model\/Customer.swift",
       "kind": "StringLiteral",
       "offset": 2072,
       "length": 5,
       "value": "\"ETB\""
     },
     {
-      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Model\/Customer.swift",
+      "filePath": "\/Users\/yohaneshaile\/Documents\/Personal Projects\/Chapa Working\/Chapa4iOSFramework\/Chapa4iOS\/Model\/Customer.swift",
       "kind": "StringLiteral",
       "offset": 2093,
       "length": 5,
       "value": "\"USD\""
     },
     {
-      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Extra\/ChapaConstants.swift",
+      "filePath": "\/Users\/yohaneshaile\/Documents\/Personal Projects\/Chapa Working\/Chapa4iOSFramework\/Chapa4iOS\/Extra\/ChapaConstants.swift",
       "kind": "StringLiteral",
       "offset": 167,
       "length": 43,
       "value": "\"https:\/\/yohanneshaile.netlify.app\/aboutme\""
     },
     {
-      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Extra\/ChapaConstants.swift",
+      "filePath": "\/Users\/yohaneshaile\/Documents\/Personal Projects\/Chapa Working\/Chapa4iOSFramework\/Chapa4iOS\/Extra\/ChapaConstants.swift",
       "kind": "StringLiteral",
       "offset": 242,
       "length": 48,
       "value": "\"https:\/\/api.chapa.co\/v1\/transaction\/initialize\""
     },
     {
-      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Extra\/ChapaConstants.swift",
+      "filePath": "\/Users\/yohaneshaile\/Documents\/Personal Projects\/Chapa Working\/Chapa4iOSFramework\/Chapa4iOS\/Extra\/ChapaConstants.swift",
       "kind": "StringLiteral",
       "offset": 322,
       "length": 45,
       "value": "\"https:\/\/api.chapa.co\/v1\/transaction\/verify\/\""
     },
     {
-      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/View\/CheckoutViewController.swift",
+      "filePath": "\/Users\/yohaneshaile\/Documents\/Personal Projects\/Chapa Working\/Chapa4iOSFramework\/Chapa4iOS\/View\/CheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 232,
+      "offset": 315,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/yohaneshaile\/Desktop\/Chapa4iOSFramework-main\/Chapa4iOS\/Util\/Extensions.swift",
+      "filePath": "\/Users\/yohaneshaile\/Documents\/Personal Projects\/Chapa Working\/Chapa4iOSFramework\/Chapa4iOS\/Util\/Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 160,
       "length": 2,

@@ -73,11 +73,6 @@ You can customize the checkout page for your users by providing:
 - description
 
 ## Verify Payment
-To verify payment, simply call the verify method from Chapa instance.
+Verifying transactions is automated starting from Chapa4iOS v0.0.2.
 
-
-```swift
-chapa.verifyPayment(controller: self, txRef: transactionReference)
-```
-### Remark
-Successfully presenting the checkout page doesn’t necessarily mean your customer has finalized their payment. You need to verify the transaction by providing the transaction reference you generated before initializing Customer object.
+### Thank you for working with Chapa4iOS 🧡

@@ -73,6 +73,6 @@ You can customize the checkout page for your users by providing:
 - description
 
 ## Verify Payment
-Verifying transactions is automated starting from Chapa4iOS v0.0.2.
+Verifying transactions is automated starting from Chapa4iOS v1.0.0.
 
 ### Thank you for working with Chapa4iOS 🧡

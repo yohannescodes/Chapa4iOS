@@ -17,6 +17,6 @@ let package = Package(
     
     targets: [
         
-        .binaryTarget(name: "Chapa4iOS", url: "https://chapa-ios-sdk-i8hv.vercel.app/Chapa4iOS.xcframework.zip", checksum: "36ea436d17724c604f5596176a52b77705fa72a1d0aca631e4e79fbb03ebc1b7")
+        .binaryTarget(name: "Chapa4iOS", url: "https://chapa-ios-sdk-zpar.vercel.app/Chapa4iOS.xcframework.zip", checksum: "36ea436d17724c604f5596176a52b77705fa72a1d0aca631e4e79fbb03ebc1b7")
     ]
 )

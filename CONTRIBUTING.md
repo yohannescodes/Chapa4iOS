@@ -33,11 +33,11 @@ If you encounter any bugs or have feature requests, please [open an issue](https
 2. **Clone your fork**: Run the following command in your terminal:
    ```
    git clone https://github.com/yohnnescodes/Chapa4iOSFramework.git
-  ```
+
 3. **Create a branch** for your feature:
   ```
     git checkout -b feature-name
-  ```
+
 ### Contributing Code
 - Follow Swift's best practices and ensure your code adheres to the project's style.
 - Implement features as described in the [design document](https://xd.adobe.com/view/795aa0a0-2b73-4179-b83b-de9ec93a218d-2c09/grid) for a consistent UI/UX.

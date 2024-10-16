@@ -33,15 +33,24 @@ If you encounter any bugs or have feature requests, please [open an issue](https
 2. **Clone your fork**: Run the following command in your terminal:
    ```
    git clone https://github.com/yohnnescodes/Chapa4iOSFramework.git
-
 3. **Create a branch** for your feature:
-  ```
+    ```
     git checkout -b feature-name
+4. **Make your changes**: Implement the feature or fix the bug.
+5. **Commit your changes**: Commit your changes with a clear and concise message:
+   ```
+   git commit -m "Add a new feature or fix a bug"
+6. **Push your changes**: Push your changes to your fork:
+   ```
+   git push origin feature/your-feature-name
+7. **Open a Pull Request**: Go to the original repository and click on "Pull Requests." Click the "New Pull Request" button and select your branch.
 
-### Contributing Code
-- Follow Swift's best practices and ensure your code adheres to the project's style.
-- Implement features as described in the [design document](https://xd.adobe.com/view/795aa0a0-2b73-4179-b83b-de9ec93a218d-2c09/grid) for a consistent UI/UX.
-- Ensure any changes are tested and submit detailed documentation with your PR.
+### Style Guidelines
+Please adhere to the following coding style guidelines:
+
+- Follow Swift's API Design Guidelines.
+- Write clear, concise commit messages.
+- Keep your code clean and well-organized.
 
 ### Reporting Bugs
 - Search for any existing issues before creating a new one.

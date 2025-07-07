@@ -1,6 +1,0 @@
-framework module Chapa4iOS {
-  umbrella header "Chapa4iOS.h"
-  export *
-
-  module * { export * }
-}
